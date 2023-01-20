@@ -18,3 +18,10 @@ describe("validations tests suites - isEmpty", () => {
 });
 
 // TODO: Create tests suite for validation function
+
+describe("verify length - checkName", () => {
+    test("should return false as the label is less than 8 char", () => {
+        const result = checkGamerTag("");
+        expect(result).toBe(false);
+    });
+});
