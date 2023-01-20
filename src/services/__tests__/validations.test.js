@@ -1,4 +1,4 @@
-const { isEmpty } = require("../validations");
+const { isEmpty, checkGamerTag } = require("../validations");
 
 describe("validations tests suites - isEmpty", () => {
     test("should return true as the label is undefined", () => {
